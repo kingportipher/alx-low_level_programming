@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - print alpha in lower case
- * Return: alwasys void
+ * main - print alpha in lower case and uppercase
+ * Return: alwasys 0
  */
 int main(void)
 {
