@@ -7,6 +7,7 @@
 int print_last_digit(int n)
 {
 	int lastDigit;
+
 	lastDigit = n % 10;
 
 	if (lastDigit < 0)
@@ -17,6 +18,6 @@ int print_last_digit(int n)
 	else
 	{
 		_putchar(lastDigit + 48);
-		return(1);
+		return (1);
 	}
 }
