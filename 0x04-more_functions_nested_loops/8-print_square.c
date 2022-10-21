@@ -12,7 +12,7 @@ void print_square(int size)
 	}
 	else
 	{
-		int lenght;
+		int length;
 		int breadth;
 
 		for (length = 0; length < size; lenghth++)
