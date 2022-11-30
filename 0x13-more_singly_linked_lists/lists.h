@@ -1,5 +1,5 @@
-#ifndef _LISTS_
-#define _LISTS_
+#ifndef _LISTS_H
+#define _LISTS_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -24,11 +24,6 @@ typedef struct listint_s
  * @next: points to the next node
  *
  */
-typedef stuct listp_s
-{
-	void *p;
-	struct listp_s *next;
-} listp_t;
 
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
