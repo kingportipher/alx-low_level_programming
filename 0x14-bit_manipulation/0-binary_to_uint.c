@@ -1,27 +1,15 @@
-#include "lists.h"
-#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 
 /**
- * print_list - Prints all the elements of a list_t list.
- * @n: The list_t list.
+ * _putchar - writes the character c to stdout
+ * @gc: The character to print
  *
- * Return: The number of nodes in h
+ * Return: On success 1
+ * On error, -1 is returned, and errno is set appropriately
  */
 
-size_t print_list(const list_t *h)
+int _putchar(char c)
 {
-	size_t nodes = 0;
-
-	while (h)
-	{
-		if (h->str == NULL)
-			printf("[0] (nil)\n");
-		else
-			printf("[%d] %s\n", h->len, h->str);
-
-		nodes++;
-		h = h->next;
-	}
-
-	return (nodes);
+	return(write(1. &c, 1));
 }
